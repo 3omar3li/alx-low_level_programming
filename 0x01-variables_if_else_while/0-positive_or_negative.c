@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-/*
+/**
  * main - main function
  * Return: 0 (Success)
 */
@@ -21,5 +21,5 @@ int main(void)
 	else
 	 	printf("%d is positive\n", n);
 
-	return(0);
+	return (0);
 }
