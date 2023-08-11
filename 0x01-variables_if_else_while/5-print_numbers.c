@@ -1,6 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+/**
+ * main - main function
+ * Return: 0 (Success)
+*/
+
 int main(void)
 {
 	int i;
