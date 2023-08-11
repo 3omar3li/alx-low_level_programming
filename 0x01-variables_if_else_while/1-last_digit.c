@@ -9,7 +9,7 @@
 
 int main(void)
 {
-	int n;
+	int n, lastNum;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
@@ -18,7 +18,7 @@ int main(void)
 		printf("Last digit of %d is %d and is grater than 5", n, lastNum);
 	else if (lastNum == 0)
 		printf("Last digit of %d is %d and is 0", n, lastNum);
-	else (lastNum < 5)
+	else
 		printf("Last digit of %d is %d and less than 6 and not 0", n, lastNum);
 	return (0);
 }
