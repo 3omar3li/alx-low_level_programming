@@ -3,7 +3,7 @@
 /**
  * print_sign - function to chech if n greater or equal or less than ZERO
  * @n: parameter to be checked
- * Return: 1 if the number grater than 0, 0 if the number equal 0 and -1 if the number less than 0
+ * Return: 1 if the n > 0, 0 if the n = 0 and -1 if the n < 0
 */
 
 int print_sign(int n)
