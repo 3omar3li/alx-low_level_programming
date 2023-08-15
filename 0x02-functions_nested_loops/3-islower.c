@@ -2,6 +2,7 @@
 
 /**
  * _islower - function to check for the lowercase characters
+ * @c: parameter to be checked
  * Return: 0 (Success)
 */
 
