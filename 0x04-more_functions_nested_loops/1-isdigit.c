@@ -3,6 +3,7 @@
 
 /**
  * _isdigit - function that checks for a digit (0 through 9)
+ * @c: parameter function
  * Return: 0 if c is digit and 0 otherwise
 */
 
