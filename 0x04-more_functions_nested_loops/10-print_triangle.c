@@ -1,4 +1,3 @@
-
 #include<stdio.h>
 #include "main.h"
 
@@ -24,7 +23,7 @@ void print_triangle(int size)
 			{
 				_putchar(' ');
 			}
-			for (k = 0; k <= i; k ++)
+			for (k = 0; k <= i; k++)
 			{
 				_putchar('#');
 			}
