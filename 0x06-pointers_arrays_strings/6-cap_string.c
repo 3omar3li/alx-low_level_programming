@@ -9,7 +9,7 @@
 
 char *cap_string(char *ptr)
 {
-	int i;
+	int i = 0;
 
 	while (ptr[++i])
 	{
@@ -29,9 +29,7 @@ char *cap_string(char *ptr)
 				ptr[i - 1] == '(' ||
 				ptr[i - 1] == ')' ||
 				ptr[i - 1] == '{' ||
-				ptr[i - 1] == '}'
-				)
-
+				ptr[i - 1] == '}')
 		{
 			ptr[i] -= ' ';
 		}
