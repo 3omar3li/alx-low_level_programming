@@ -6,7 +6,7 @@
  * @dest: parameter function
  * @src: parameter function
  * @n: parameter function
- * Return:
+ * Return: pointer to dest
  */
 
 char *_memcpy(char *dest, char *src, unsigned int n)
