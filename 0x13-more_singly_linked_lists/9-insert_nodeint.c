@@ -1,10 +1,11 @@
 #include "lists.h"
 
 /**
- * insert_nodeint_at_index - function that inserts a new node at a given position
+ * insert_nodeint_at_index - function that inserts a new node
+ *	at a given position
  * @head: function parameter
  * @idx: the index of the list where the new node
- * 	should be added. Index starts at 0
+ *	should be added. Index starts at 0
  * @n: function parameter
  * Return: the address of the new node, or NULL if it failed
  *	if it is not possible to add the new node at index idx,
