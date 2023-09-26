@@ -10,7 +10,7 @@
 size_t print_listint(const listint_t *h)
 {
 	const listint_t *cursor = h;
-	size_t count = 0;
+	unsigned int count = 0;
 
 	while (cursor != NULL)
 	{
@@ -18,5 +18,5 @@ size_t print_listint(const listint_t *h)
 		count++;
 		cursor = cursor->next;
 	}
-	return(count);
+	return (count);
 }
