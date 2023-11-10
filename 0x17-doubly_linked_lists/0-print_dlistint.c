@@ -1,6 +1,6 @@
 #include "lists.h"
 
-/*
+/**
  * print_dlistint - function that prints all the elements of
  *	a double linked list
  * @h: address of the head node
