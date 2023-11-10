@@ -1,11 +1,10 @@
 #include "lists.h"
 
 /*
- * print_dlistint - function that prints all the elements of a dlistint_t list
+ * print_dlistint - function that prints all the elements of a double linked list
  * @h: address of the head node
  * Return: size of list
 */
-
 size_t print_dlistint(const dlistint_t *h)
 {
 	int length = 0;
